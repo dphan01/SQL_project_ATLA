@@ -15,8 +15,10 @@ Customer ID (KUNNR) in KNA1 table is unique, however same customer can be presen
 - For each customer that is shared, show all sales organizations it belongs to, and group them in single line
 - Count number of sales organizations for shared customer accounts
       
-Present the results with following columns: CustomerNr, CustomerName, AccountGroup, SalesOrgs, SalesOrgCount. For example:
+Present the results with following columns: CustomerNr, CustomerName, AccountGroup, SalesOrgs, SalesOrgCount.
+
 Bonus: try ordering the sales organization alphabetically in the single line
+
 
 
 
@@ -29,9 +31,11 @@ Customer ID can also be found on different Brands (SPART). We want to find all I
 - All customer accounts that belong to Brand 01 and another Brand (02 – 05)
 - Sales organization given customer belongs under
       
-Present the results with following columns: CustomerNr, CustomerName, SalesOrg, Brand, AccountGroup, SharedBrand. For example:
-Bonus: Group results by SalesOrg, SharedBrands and count the occurrences, for example:
- 
+Present the results with following columns: CustomerNr, CustomerName, SalesOrg, Brand, AccountGroup, SharedBrand.
+
+Bonus: Group results by SalesOrg, SharedBrands and count the occurrences.
+
+
 
 
 ### SQL - Task 3:
